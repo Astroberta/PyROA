@@ -11,6 +11,8 @@ import astropy.units as u
 import astropy.constants as ct
 from pandas import DataFrame
 
+print('hi')
+
 def Chains(nparam,filters,delay_ref,
 				burnin=0, samples_file='samples_flat.obj',
                 outputdir = './', initial=0,
